@@ -41,12 +41,13 @@ string thief_name()
 // asks for a name of the Security Guy
 string security_man()
 {
-    // TO DO
+    string security_man = get_string("security name: ");
+    return security_man;
 }
 
 // asks for a name of the Son
 string the_son()
-{git
+{
    // TO DO
 }
 
