@@ -35,28 +35,28 @@ int main(void)
 // asks for a name of the Thief
 string thief_name()
 {
-    string thieft = get_string("thieft: ");
+    string thieft = get_string("Thief Name: ");
     return thieft;
 }
 
 // asks for a name of the Security Guy
 string security_man()
 {
-    string security_man = get_string("security name: ");
+    string security_man = get_string("Security name: ");
     return security_man;
 }
 
 // asks for a name of the Son
 string the_son()
 {
-   string ask = get_string("Enter sons' name: ");
+   string ask = get_string("Son name: ");
    return ask;
 }
 
 // asks for a name of the father
 string the_father()
 {
-    string father = get_string(" Father");
+    string father = get_string("Father: ");
     return father;
 }
 
