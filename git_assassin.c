@@ -7,7 +7,7 @@
 string thief_name();
 string security_man();
 string the_son();
-// string the_father();
+string the_father();
 
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
     arr[0] = thief_name();
     arr[1] = security_man();
     arr[2] = the_son();
-    // arr[3] = the_father();
+    arr[3] = the_father();
 
     int arr_length = sizeof(arr)/sizeof(arr[0]);
     if (arr_length < 5 )
@@ -54,6 +54,7 @@ string the_son()
 // asks for a name of the father
 string the_father()
 {
-    // TO DO
+    string father = get_string();
+    return father;
 }
 
