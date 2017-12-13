@@ -46,8 +46,9 @@ string security_man()
 
 // asks for a name of the Son
 string the_son()
-{git
-   // TO DO
+{
+   string ask = get_string("Name of the son");
+   return ask;
 }
 
 // asks for a name of the father
