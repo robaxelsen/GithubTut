@@ -19,7 +19,7 @@ int main(void)
     arr[3] = the_father();
 
     int arr_length = sizeof(arr)/sizeof(arr[0]);
-    if (arr_length < 5 )
+    if (arr_length < 4 )
     {
         printf("Error, add more people\n");
         return 1;
@@ -35,7 +35,7 @@ int main(void)
 // asks for a name of the Thief
 string thief_name()
 {
-    string thieft = "Wael";
+    string thieft = get_string("thieft: ");
     return thieft;
 }
 
@@ -56,7 +56,7 @@ string the_son()
 // asks for a name of the father
 string the_father()
 {
-    string father = get_string();
+    string father = get_string(" Father");
     return father;
 }
 
