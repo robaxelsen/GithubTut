@@ -49,7 +49,8 @@ string security_man()
 // asks for a name of the Son
 string the_son()
 {
-  // TO DO
+   string ask = get_string("Enter sons' name: ");
+   return ask;
 }
 
 // asks for a name of the father
