@@ -35,7 +35,8 @@ int main(void)
 // asks for a name of the Thief
 string thief_name()
 {
-    // TO DO
+    string thieft = "Wael";
+    return thieft;
 }
 
 // asks for a name of the Security Guy
