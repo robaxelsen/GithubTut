@@ -35,8 +35,8 @@ int main(void)
 // asks for a name of the Thief
 string thief_name()
 {
-    string thieft = get_string("Thief Name: ");
-    return thieft;
+    string thief = get_string("Thief Name: ");
+    return thief;
 }
 
 // asks for a name of the Security Guy
